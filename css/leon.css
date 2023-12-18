@@ -158,10 +158,7 @@ body{
   .zebmov {
   width: 105px;
   transform: rotateY(200deg) translatex(0px) skew(0deg, 0deg);
-  animation-name: zebraa;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  
+ animation: zebraa 10s linear infinite;
   }
   @keyframes zebraa{
     2.5%{
